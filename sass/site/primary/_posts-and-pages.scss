@@ -29,15 +29,15 @@
     background-color: rgb(40, 105, 161);
     color:white;
 }
-.site-header{
-	display: none;
-}
-.entry-footer{
-	display: none;
-}
-.entry-title{
+
+.entry-title {
 	text-align: center;
 }
+
+.entry-footer {
+	display: none;
+}
+
 .conteneurGlobal{
 	display: flex;
 	flex-direction: row;
@@ -53,6 +53,7 @@
 		min-height: 150px;
 	}
 }
+
 .conteneurGlobalImage{
 	display: flex;
 	justify-content: space-around;
