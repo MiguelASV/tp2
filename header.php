@@ -33,13 +33,13 @@
                 <li><a href="">Dieu</a></li>
                 <li><a href="">Rôle</a></li>
                 <li><a href="">Arène</a></li>
+				<li><a href="">Support</a></li>
+				<li><a href="">Accueil</a></li>
+                <li><a href="">Dieu</a></li>
+                <li><a href="">Rôle</a></li>
+                <li><a href="">Arène</a></li>
                 <li><a href="">Support</a></li>
             </ul>
-            <div id='recherche' class='global'>
-                <input id="chkRecherche" type="checkbox">
-                <input type='text' id='txtRecherche' placeholder='Recherche'> 
-                <label id="btnRecherche" for="chkRecherche"></label>
-            </div>
     	</nav>
 		<div class="site-branding">
 			<?php
