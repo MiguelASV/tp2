@@ -29,8 +29,8 @@
             <input id="checkMenu" type="checkbox">
             <label id="btnMenu" for="checkMenu">&#9776;</label>
             <ul class='global'>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">Dieu</a></li>
+                <li><a href="http://localhost/miguel-tp2/">Accueil</a></li>
+                <li><a href="http://localhost/miguel-tp2/category/evenement/">evenement</a></li>
                 <li><a href="">Rôle</a></li>
                 <li><a href="">Arène</a></li>
 				<li><a href="">Support</a></li>
