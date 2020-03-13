@@ -6,12 +6,18 @@ le menu est contrôlé par une case à cocher
 l'état checked est testé par un le sélecteur suivant:
 */
 
+#checkMenu ul li {
+    display: none;
+}
+
 #checkMenu:checked~ul {
     max-height: 400px; // max-height peut transiter mais non height
+    
 }
 
 #checkMenu:checked~ul>li {
     opacity: 1;
+    display: block;
 }
 
 #checkMenu:checked ~ #btnMenu {
@@ -20,13 +26,10 @@ l'état checked est testé par un le sélecteur suivant:
 }
 
 
-
-
 #checkMenu {
    display : none;
 
     z-index: 1;
- 
 }
 
 #btnMenu {

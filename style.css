@@ -316,12 +316,17 @@ body {
 le menu est contrôlé par une case à cocher
 l'état checked est testé par un le sélecteur suivant:
 */
+#checkMenu ul li {
+  display: none;
+}
+
 #checkMenu:checked ~ ul {
   max-height: 400px;
 }
 
 #checkMenu:checked ~ ul > li {
   opacity: 1;
+  display: block;
 }
 
 #checkMenu:checked ~ #btnMenu {
@@ -604,6 +609,24 @@ l'état checked est testé par un le sélecteur suivant:
 }
 
 .menu-toggle {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Entete
+--------------------------------------------------------------*/
+.site-branding {
+  display: none;
+}
+
+.main-navigation {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.site-info {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
