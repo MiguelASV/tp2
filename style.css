@@ -549,10 +549,6 @@ l'état checked est testé par un le sélecteur suivant:
   margin: 0 0 1.5em;
 }
 
-.post-thumbnail {
-  text-align: center;
-}
-
 .wp-block-cgb-block-my-block {
   background-color: #2869a1;
   color: white;
@@ -625,6 +621,30 @@ l'état checked est testé par un le sélecteur suivant:
 
 .main-navigation {
   display: none;
+}
+
+.post-thumbnail {
+  text-align: center;
+  -webkit-animation: animPost 3s;
+          animation: animPost 3s;
+}
+
+@-webkit-keyframes animPost {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes animPost {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 /*--------------------------------------------------------------

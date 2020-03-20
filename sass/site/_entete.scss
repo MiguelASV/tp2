@@ -10,3 +10,13 @@
 .main-navigation {
     display: none;
 }
+
+.post-thumbnail{
+    text-align: center;
+    animation: animPost 3s;
+}
+
+@keyframes animPost {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
