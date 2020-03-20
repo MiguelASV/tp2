@@ -24,8 +24,9 @@
 
 
 .wp-block-cgb-block-my-block{
-    background-color: rgb(40, 105, 161);
-    color:white;
+	@extend .small-uppercase;
+    background-color: rgb(12, 180, 110);
+	color:white;
 }
 
 .entry-title {

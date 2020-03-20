@@ -55,8 +55,8 @@ On peut optimiser @extend avec un «placeholder»
 en précédent notre extension avec «%»
 */
 
-%small-uppercase{
-    color: lightslategrey;
+.small-uppercase{
+    color: rgb(255, 0, 234);
     font-size: 10px;
     letter-spacing: 0.1em;
     line-height: 12px;
@@ -64,15 +64,23 @@ en précédent notre extension avec «%»
   }
   
   .modal-background{
-    @extend %small-uppercase;
+    @extend .small-uppercase;
   }
   
   .product-link{
-    @extend %small-uppercase;
+    @extend .small-uppercase;
   }
   
   .image-pattern{
-    @extend %small-uppercase;
+    @extend .small-uppercase;
+  }
+
+  .wp-block-cgb-block-my-block {
+    @extend .small-uppercase;
+  }
+
+  .conteneurGlobal {
+    @extend .small-uppercase;
   }
   
   // le  css généré

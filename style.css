@@ -269,8 +269,8 @@ communes qu'une seule fois.
 On peut optimiser @extend avec un «placeholder»
 en précédent notre extension avec «%»
 */
-.modal-background, .product-link, .image-pattern {
-  color: lightslategrey;
+.small-uppercase, .modal-background, .product-link, .image-pattern, .wp-block-cgb-block-my-block, .conteneurGlobal {
+  color: #ff00ea;
   font-size: 10px;
   letter-spacing: 0.1em;
   line-height: 12px;
@@ -550,7 +550,7 @@ l'état checked est testé par un le sélecteur suivant:
 }
 
 .wp-block-cgb-block-my-block {
-  background-color: #2869a1;
+  background-color: #0cb46e;
   color: white;
 }
 

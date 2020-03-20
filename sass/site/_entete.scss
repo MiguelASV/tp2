@@ -22,6 +22,7 @@
 }
 
 .wp-block-cgb-block-my-block {
+    @extend .small-uppercase;
     animation: animGuten 6s;
     animation-iteration-count: infinite;
 }

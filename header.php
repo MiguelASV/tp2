@@ -31,14 +31,14 @@
             <ul class='global'>
                 <li><a href="http://localhost/miguel-veille-tp2/">Accueil</a></li>
                 <li><a href="http://localhost/miguel-veille-tp2/category/evenement/">evenement</a></li>
-                <li><a href="">Rôle</a></li>
-                <li><a href="">Arène</a></li>
-				<li><a href="">Support</a></li>
-				<li><a href="">Accueil</a></li>
-                <li><a href="">Dieu</a></li>
-                <li><a href="">Rôle</a></li>
-                <li><a href="">Arène</a></li>
-                <li><a href="">Support</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+				<li><a href="">3</a></li>
+				<li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li><a href="">7</a></li>
+                <li><a href="">8</a></li>
             </ul>
     	</nav>
 		<div class="site-branding">
