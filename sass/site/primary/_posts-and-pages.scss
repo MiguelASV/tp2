@@ -38,6 +38,7 @@
 }
 
 .conteneurGlobal{
+	@include label($text: "event", $background: rgb(223, 223, 223), $color: rgba(black, 0.5));
 	display: flex;
 	flex-direction: row;
 	margin-left: 1%;
@@ -54,6 +55,7 @@
 }
 
 .conteneurGlobalImage{
+	
 	display: flex;
 	justify-content: space-around;
 	margin-left: 1%;

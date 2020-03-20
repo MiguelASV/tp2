@@ -563,6 +563,7 @@ l'état checked est testé par un le sélecteur suivant:
 }
 
 .conteneurGlobal {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -571,6 +572,23 @@ l'état checked est testé par un le sélecteur suivant:
       -ms-flex-direction: row;
           flex-direction: row;
   margin-left: 1%;
+}
+
+.conteneurGlobal:before {
+  background: #dfdfdf;
+  color: rgba(0, 0, 0, 0.5);
+  content: "event";
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  height: 1rem;
+  left: 0;
+  letter-spacing: 0.1em;
+  line-height: 1rem;
+  padding: 0 0.5em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
 }
 
 .conteneurGlobal div {
