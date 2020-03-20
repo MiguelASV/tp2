@@ -615,6 +615,10 @@ l'état checked est testé par un le sélecteur suivant:
 /*--------------------------------------------------------------
 # Entete
 --------------------------------------------------------------*/
+.site {
+  background-color: lightblue;
+}
+
 .site-branding {
   display: none;
 }
