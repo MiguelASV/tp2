@@ -20,3 +20,20 @@
     from {opacity: 0%;}
     to {opacity: 100%;}
 }
+
+.wp-block-cgb-block-my-block {
+    animation: animGuten 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animGuten {
+    0% {
+        transform: translateX(-300px);
+    }
+    50% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(-300px);
+    }
+}
