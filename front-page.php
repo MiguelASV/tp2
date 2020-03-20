@@ -86,6 +86,7 @@ while ( $query2->have_posts() ) {
          echo '<div class= "conteneurTexte">';
          echo '<li>' . get_the_title( $query2->post->ID ) . " - " .get_the_date().'</li>';
          echo "<p>" . get_the_excerpt(). "</p>";
+         echo '<p>' . '<a href='. get_the_permalink() . '>' . "En savoir plus".'</a>' . '<p>';
          echo '</div>';
              
      echo '</div>';
