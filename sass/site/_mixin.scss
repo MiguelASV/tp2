@@ -82,7 +82,7 @@ Si vous souhaitez qu'un paramètre ait une valeur par défaut tout en offrant la
 d'en définir un occasionnellement, vous pouvez créer des paramètres facultatifs:
 ------------------------------------------------------------------------------------- */
 
-@mixin label($text: "Code", $background: #aaa, $color: rgba(black, 0.5)) {
+@mixin label($text: "Code", $background: rgb(214, 154, 24), $color: rgba(black, 0.5)) {
     position: relative;
     &:before{
       background: $background;

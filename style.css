@@ -89,7 +89,7 @@ div.highlighter-rouge {
 }
 
 div.highlighter-rouge:before {
-  background: #aaa;
+  background: #d69a18;
   color: rgba(0, 0, 0, 0.5);
   content: "Code";
   display: inline-block;
@@ -575,7 +575,7 @@ l'état checked est testé par un le sélecteur suivant:
 }
 
 .conteneurGlobal:before {
-  background: #dfdfdf;
+  background: #cca703;
   color: rgba(0, 0, 0, 0.5);
   content: "event";
   display: inline-block;
